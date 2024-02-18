@@ -163,9 +163,9 @@ separ();                   // appel de la fonction
 ZVF=1/(ZVR*ZVC*0.000000001*2*3.14);
 fill(0,0,0);
 textSize(26);
-text("R=                ohms",28,500); text(ZVR,68,500);
-text("C=                 nF",310,500); text(ZVC,360,500);
-text("F0=               Hz",570,500); text(ZVF,610,500);
+text("R=                   ohms",28,500); text(ZVR,68,500);
+text("C=                       nF",310,500); text(ZVC,360,500);
+text("F0=                         Hz",570,500); text(ZVF,610,500);
 Gain();
 
 }
